@@ -1,2 +1,6 @@
-# krkrz_android_research
-krkrz android research
+# 吉里吉里Z Android 対応検証用リポジトリ
+
+吉里吉里Z の Android 対応の検証などを行っているリポジトリです。
+ビルドが通らないことも多いし、動作もまったく保証されません(動作しません)。
+私個人での検証/研究のためのものです。
+

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\autofit\autofit.c" />
+    <ClCompile Include="..\src\base\basepic.c" />
+    <ClCompile Include="..\src\base\ftapi.c" />
+    <ClCompile Include="..\src\base\ftbase.c" />
+    <ClCompile Include="..\src\base\ftbbox.c" />
+    <ClCompile Include="..\src\base\ftbitmap.c" />
+    <ClCompile Include="..\src\base\ftdbgmem.c" />
+    <ClCompile Include="..\src\base\ftdebug.c" />
+    <ClCompile Include="..\src\base\ftglyph.c" />
+    <ClCompile Include="..\src\base\ftinit.c" />
+    <ClCompile Include="..\src\base\ftpic.c" />
+    <ClCompile Include="..\src\base\ftstroke.c" />
+    <ClCompile Include="..\src\base\ftsynth.c" />
+    <ClCompile Include="..\src\base\ftsystem.c" />
+    <ClCompile Include="..\src\cff\cff.c" />
+    <ClCompile Include="..\src\pshinter\pshinter.c" />
+    <ClCompile Include="..\src\psnames\psnames.c" />
+    <ClCompile Include="..\src\raster\raster.c" />
+    <ClCompile Include="..\src\sfnt\sfnt.c" />
+    <ClCompile Include="..\src\smooth\ftsmooth.c" />
+    <ClCompile Include="..\src\truetype\truetype.c" />
+  </ItemGroup>
+</Project>

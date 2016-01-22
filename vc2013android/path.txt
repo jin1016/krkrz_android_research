@@ -1,0 +1,3 @@
+../external/freetype2-android/include;../external/lpng;../external/onig;../base;../base/android;../environ/android;../msg;../msg/android;../sound;../tjs2;../utils;../utils/android;../visual;../visual/android;
+
+

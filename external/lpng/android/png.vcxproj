@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="NsightTegraProject">
+    <NsightTegraProjectRevisionNumber>11</NsightTegraProjectRevisionNumber>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Tegra-Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Tegra-Android">
+      <Configuration>Release</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Tegra-Android">
+      <Configuration>Shipping</Configuration>
+      <Platform>Tegra-Android</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\png.c" />
+    <ClCompile Include="..\pngerror.c" />
+    <ClCompile Include="..\pngget.c" />
+    <ClCompile Include="..\pngmem.c" />
+    <ClCompile Include="..\pngpread.c" />
+    <ClCompile Include="..\pngread.c" />
+    <ClCompile Include="..\pngrio.c" />
+    <ClCompile Include="..\pngrtran.c" />
+    <ClCompile Include="..\pngrutil.c" />
+    <ClCompile Include="..\pngset.c" />
+    <ClCompile Include="..\pngtrans.c" />
+    <ClCompile Include="..\pngwio.c" />
+    <ClCompile Include="..\pngwrite.c" />
+    <ClCompile Include="..\pngwtran.c" />
+    <ClCompile Include="..\pngwutil.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{867A7891-4CEE-4926-82D9-BD20D8B6FB06}</ProjectGuid>
+    <RootNamespace>png</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <AndroidTargetAPI>android-15</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <AndroidTargetAPI>android-15</AndroidTargetAPI>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Shipping|Tegra-Android'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <AndroidTargetAPI>android-15</AndroidTargetAPI>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <AdditionalIncludeDirectories>../</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Tegra-Android'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Tegra-Android'">
+    <ClCompile>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
